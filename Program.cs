@@ -13,6 +13,10 @@
     {
         Console.WriteLine("GoodBy");
     }
+    public void GoodbyByName(string name)
+    {
+        Console.WriteLine($"GoodBy {name}");
+    }
 }
 
 
