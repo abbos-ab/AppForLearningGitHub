@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Calculator calculator = new Calculator();
+var response = calculator.Add(5, 10);
+Console.WriteLine(response);
+
+class Calculator
+{
+    public int Add(int a, int b) => a + b;
+}
