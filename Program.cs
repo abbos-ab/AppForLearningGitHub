@@ -9,6 +9,10 @@
     {
         Console.WriteLine($"Hello {name}");
     }
+    public void SayGoodby()
+    {
+        Console.WriteLine("GoodBy");
+    }
 }
 
 
