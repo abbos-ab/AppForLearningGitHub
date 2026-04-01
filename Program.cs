@@ -1,17 +1,21 @@
-﻿Calculator calculator = new Calculator();
-var response = calculator.Add(5, 10, 7);
-Console.WriteLine(response);
-
-class Calculator
+﻿class Info
 {
-    public int Add(int a, int b, int c) => a + b + c;
-    public int Subtract(int a, int b) => a - b;
-
-    public int Multiply(int a, int b) => a * b;
-
-    public int Divide(int a, int b)
+    public void SayHello()
     {
-        return a / b;
+        Console.WriteLine("Hello");
+    }
+
+    public void SayHelloByName(string name)
+    {
+        Console.WriteLine($"Hello {name}");
+    }
+    public void SayGoodby()
+    {
+        Console.WriteLine("GoodBy");
+    }
+    public void GoodbyByName(string name)
+    {
+        Console.WriteLine($"GoodBy {name}");
     }
 }
 
